@@ -35,7 +35,7 @@ In order to read the files contents, we use the <strong>.read()</strong> method 
 <br />
 3. Convert the string into a list<br/>
 <br/>
-We have our list of IP addresses but it is in a single string format. To remove individual IP addresses from the allow list, the IP addresses need to be in a list format. To do this, we can use the <strong>.split()</strong> method to convert the ip_addresses string into a list. 
+We have our list of IP addresses but it is in a single string format. To remove individual IP addresses from the allow list, the IP addresses need to be in a list format. To do this, we can use the <strong>.split()</strong> method to convert the ip_addresses string into a list. <br/>
 <img src="https://imgur.com/Zbre6rX.png" height="80%" width="80%"/>
 <br />
 <br />
@@ -53,7 +53,7 @@ Now we can add code to the body of our iterative statement that will remove all 
 <br />
 6. Update the file with the revised list of IP addresses<br/>
 <br/>
-With the invalid IP addresses removed from the <strong>ip_address</strong> variable, we can complete the algorithm by updating the file with this revised list. To do this, we must first convert the <strong>ip_addresses</strong> list back into a string using the <strong>.join()</strong> method. We apply <strong>.join()</strong> to the string " " in order to separate the elements in the file by a space.
+With the invalid IP addresses removed from the <strong>ip_address</strong> variable, we can complete the algorithm by updating the file with this revised list. To do this, we must first convert the <strong>ip_addresses</strong> list back into a string using the <strong>.join()</strong> method. We apply <strong>.join()</strong> to the string " " in order to separate the elements in the file by a space.<br/>
 
 Then, we use another <strong>with</strong> statement and the <strong>.write()</strong> method to write over the file assigned to the <strong>import_file</strong> variable.
 <img src="https://imgur.com/UGmRybR.png" height="80%" width="80%"/>
