@@ -1,8 +1,5 @@
 <h1>Update a file through a Python algorithm</h1>
 
-### [YouTube Demonstration](https://youtu.be/yi9wTrEUIH8)
-
-
 <h2>Description</h2>
 
 <p><em>This scenario was completed during the Google Cybersecurity Certificate Program:</em></p>
